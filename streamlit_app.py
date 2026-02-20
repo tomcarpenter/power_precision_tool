@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 from scipy.stats import norm
 
 
+
+
 def confidence_interval_for_proportion(n, p, N, confidence=0.95):
     """
     Calculate the confidence interval for an estimated population proportion.
